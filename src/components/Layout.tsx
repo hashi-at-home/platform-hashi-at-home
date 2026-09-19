@@ -10,6 +10,7 @@ export const Layout = (props: { children: any }) => {
         <meta name="color-scheme" content="light dark" />
         <title>Platform @ Home</title>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.colors.min.css" />
         <link rel="stylesheet" href="/styles.css" />
       </head>
       <body>

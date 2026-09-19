@@ -5,7 +5,7 @@ export const Home = () => {
     <Layout>
       <main class="container">
         <section class="grid">
-          <article>
+          <article class="card">
             <h2>Understanding the Platform</h2>
             <p>
               Welcome to your internal developer platform. This is a unified workspace for managing
@@ -23,7 +23,7 @@ export const Home = () => {
             <button>Learn More</button>
           </article>
 
-          <article>
+          <article class="card">
             <h2>Using the Platform</h2>
             <p>
               Get started with your developer platform in just a few steps. Whether you're
