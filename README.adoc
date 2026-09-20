@@ -1,0 +1,38 @@
+= Hashi@Home is a platform
+:description: front page for Hashi@Home
+:author: Bruce Becker
+:email: brucellino@hey.com
+
+This is a Hono application deployed on Cloudflare pages which acts as the public page of my internal platform.
+
+== Developing
+
+Setup your development environment.
+
+Then install and run locally.
+
+```txt
+npm install
+npm run dev
+```
+
+```txt
+npm run deploy
+```
+
+[For generating/synchronizing types based on your Worker configuration run](https://developers.cloudflare.com/workers/wrangler/commands/#types):
+
+```txt
+npm run cf-typegen
+```
+
+Pass the `CloudflareBindings` as generics when instantiating `Hono`:
+
+```ts
+// src/index.ts
+const app = new Hono<{ Bindings: CloudflareBindings }>()
+```
+
+== Application
+
+See docs.
