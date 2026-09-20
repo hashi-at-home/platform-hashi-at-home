@@ -24,19 +24,16 @@ export const Footer = () => {
               <a href="#docs">Documentation</a>
             </li>
             <li>
-              <a href="#support">Support</a>
-            </li>
-            <li>
-              <a href="#discord">Slack/Discord</a>
+              <a href="#discussion">Discuss</a>
             </li>
           </ul>
         </div>
 
         <div>
-          <h3>Company</h3>
+          <h3>About</h3>
           <ul>
             <li>
-              <a href="#about">About Us</a>
+              <a href="#about">About Hashi@Home</a>
             </li>
             <li>
               <a href="#blog">Blog</a>
