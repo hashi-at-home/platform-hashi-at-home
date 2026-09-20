@@ -10,22 +10,35 @@
   "assets": {
     "binding": "ASSETS",
     "directory": "./public",
-    "rules": [
-      {
-        "type": "text/html",
-        "fallthrough": true
-      }
-    ]
+    // "rules": [
+    //   {
+    //     "type": "text/html",
+    //     "fallthrough": true
+    //   }
+    // ]
   },
   "observability": {
     "enabled": true
   },
-  "upload_source_maps": true
+  "upload_source_maps": true,
   /**
 	 * Smart Placement
 	 * https://developers.cloudflare.com/workers/configuration/smart-placement/#smart-placement
 	 */
-  // "placement": {  "mode": "smart" }
+  "placement": {
+    "mode": "smart"
+  },
+  "routes": [
+    {
+      "pattern": "platform.hashiatho.me",
+      "custom_domain": true
+    }
+  ],
+  "workers_dev": true,
+  "build": {
+    "command": "pnpm run build",
+    // "watch_dir": "./src"
+  }
   /**
 	 * Bindings
 	 * Bindings allow your Worker to interact with resources on the Cloudflare Developer Platform, including

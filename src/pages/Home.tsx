@@ -6,37 +6,25 @@ export const Home = () => {
       <main class="container">
         <section class="grid">
           <article class="card">
-            <h2>Understanding the Platform</h2>
+            <h2>Hashi@Home Platform</h2>
             <p>
-              Welcome to your internal developer platform. This is a unified workspace for managing
-              your infrastructure, tools, and services.
+              Welcome to the front page of a home-made platform.
             </p>
             <p>
-              Our platform provides a centralized hub where you can monitor, deploy, and manage all
-              your internal services from one place.
+              My platform is deployed at home, using whatever parts I like.
+              This is a place for me to practice my art. Professional and personal feedback and discussion is welcomed, in the discussion forum.
             </p>
-            <ul>
-              <li>Unified dashboard for all services</li>
-              <li>Real-time monitoring and alerts</li>
-              <li>Integrated CI/CD pipelines</li>
-            </ul>
             <button>Learn More</button>
           </article>
 
           <article class="card">
             <h2>Using the Platform</h2>
             <p>
-              Get started with your developer platform in just a few steps. Whether you're
-              deploying services, managing infrastructure, or monitoring systems, we've got you
-              covered.
-            </p>
-            <p>
-              Access your dashboard, explore available services, and begin managing your
-              infrastructure with ease.
+              Design and deploy workloads into the platform. Follow this path to understand how to get your workloads running.
             </p>
             <ul>
               <li>Quick onboarding guide</li>
-              <li>API documentation</li>
+              <li>Documentation</li>
               <li>Best practices and tutorials</li>
             </ul>
             <button>Get Started</button>

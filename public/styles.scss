@@ -63,15 +63,17 @@ article.card:nth-last-of-type {
   border-left-color: $amber-150;
 }
 
-article.card:hover {
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.18) !important;
-  transform: translateY(-2px);
-}
+// article.card:hover {
+//   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.18) !important;
+//   transform: translateY(-2px);
+// }
 
 footer {
-  font-size: 14px;
+  font-size: 0.7rem;
 }
 
 button {
-  background-color: $amber-200
+  background-color: $jade-450 ;
+  color: $amber;
+  font-family: sans-serif;
 }

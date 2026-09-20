@@ -1,0 +1,16 @@
+[tools]
+node = { version = "lts" }
+pnpm = "latest"
+prek = "0.5"
+
+[tasks]
+"run dev" = { run = "pnpm run dev" }
+deploy = { run = "wrangler deploy" }
+
+[deps]
+pnpm = { auto = true }
+
+[settings]
+activate_aggressive = true
+auto_install = true
+minimum_release_age = "2w"

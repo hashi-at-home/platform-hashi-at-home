@@ -1,6 +1,4 @@
-onlyBuiltDependencies:
-  - esbuild
-  - workerd
 allowBuilds:
+  '@parcel/watcher': false
   esbuild: true
   workerd: true
