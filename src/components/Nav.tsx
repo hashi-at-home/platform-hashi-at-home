@@ -1,7 +1,10 @@
 export const Nav = () => {
   return (
     <nav>
-      <strong>Platform @ Home</strong>
+      <ul>
+        <li><strong>Platform</strong></li>
+      </ul>
+
       <ul>
         <li>
           <a href="#blog">Blog</a>
